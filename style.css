@@ -1,0 +1,278 @@
+/* General Styles */
+body {
+   background: #00F260;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    font-family: 'Arial', sans-serif;
+    
+    color: #6439a8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #0a3764;
+    color: rgb(224, 221, 221);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+header h1 {
+   
+    
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f1c40f;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.phase
+{
+   border-radius: 15px;
+   background-color: hsla(0, 0%, 0%, 0.5); /* 黑色，透明度为50% */
+   color: #0da1ce;
+   text-align: center;
+    
+}
+
+.phase h2 {
+    font-size: 2rem;
+    color: #2C3E50;
+    border-bottom: 2px solid #f1c40f;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.phase p {
+    
+    color: #cfb94c;
+	font-weight: bold;
+    text-align: left;
+
+
+    text-indent: 50px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+ul
+{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0;
+}
+.qq2
+{
+    list-style: none;
+    float: left;
+    width: 33.3%;/*三列图片排列*/
+}
+
+li img 
+{
+    
+    width: 100%;
+}
+
+.phase img 
+{
+   padding-top: 1;
+                background: linear-gradient(to left, #2CD5FF, #2CD5FF) left top no-repeat,
+                linear-gradient(to bottom, #2CD5FF, #2CD5FF) left top no-repeat,
+                linear-gradient(to left, #2CD5FF, #2CD5FF) right top no-repeat,
+                linear-gradient(to bottom, #2CD5FF, #2CD5FF) right top no-repeat,
+                linear-gradient(to left, #2CD5FF, #2CD5FF) left bottom no-repeat,
+                linear-gradient(to bottom, #2CD5FF, #2CD5FF) left bottom no-repeat,
+                linear-gradient(to left, #2CD5FF, #2CD5FF) right bottom no-repeat,
+                linear-gradient(to left, #2CD5FF, #2CD5FF) right bottom no-repeat;
+                background-size: 4px 20px, 20px 4px, 4px 20px, 20px 4px;
+                border: 1px solid #073F97;
+                position: relative;
+    width: 50%;
+    height: 30%;
+    object-fit: cover;
+}
+.c1
+{
+    border-radius: 15px;
+    float: left;
+    margin-right: 10px;
+    opacity: 0.9;
+    
+}
+.c1:hover
+{
+    transform: scale(1.4);
+    transition: all 0.2s linear;
+}
+.c2
+{
+    border-radius: 15px;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+
+    width: 400px;
+    height: 400px;
+    
+    
+    opacity: 0.75; 
+}
+.c3
+{
+    border-radius: 15px;
+    float: right;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+.c3:hover
+{
+    transform: scale(1.7);
+    transition: all 0.2s linear;
+}
+.c4
+{
+    border-radius: 15px;
+    position: absolute;
+    left: -300px;
+    top: -20px;
+
+    width: 400px;
+    height: 400px;
+    
+    
+    opacity: 0.75; 
+
+}
+.c5
+{
+    border-radius: 15px;
+    float: left;
+    margin-right: 10px;
+    opacity: 0.9;
+}
+.c5:hover
+{
+    transform: scale(1.7);
+    transition: all 0.2s linear;
+}
+.c6
+{
+    border-radius: 15px;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+
+    width: 400px;
+    height: 400px;
+    
+    
+    opacity: 0.75; 
+}
+.c7
+{
+     border-radius: 15px;
+     float: right;
+     margin-right: 10px;
+     opacity: 0.9;
+}
+.c7:hover
+{
+    transform: scale(1.7);
+    transition: all 0.2s linear;
+}
+.c8
+{
+    border-radius: 15px;
+    position: absolute;
+    left: -400px;
+    top: -100px;
+
+    width: 400px;
+    height: 400px;
+    
+    
+    opacity: 0.75; 
+
+}
+.c9
+{
+    border-radius: 15px;
+    position: absolute;
+    left: 500px;
+    top: -200px;
+    
+    
+    opacity: 0.75; 
+}
+.cA
+{
+    border-radius: 15px;
+    position: absolute;
+    left: -300px;
+    top: -400px;
+    opacity: 0.75; 
+}
+.cB
+{
+    border-radius: 15px;
+    position: absolute;
+   
+    top: -500px;
+    opacity: 0.75; 
+
+}
+.cC
+{
+    border-radius: 15px;
+    position: absolute;
+    left: 400px;
+    top: -1100px;
+    opacity: 0.75; 
+
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0a3764;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+footer p {
+    margin: 0;
+}
